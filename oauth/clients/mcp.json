@@ -1,0 +1,24 @@
+{
+  "client_id": "https://shubhenda.github.io/mcp-cimd-poc/oauth/clients/mcp.json",
+  "client_name": "MCP CIMD POC",
+  "application_type": "native",
+  "redirect_uris": [
+    "http://127.0.0.1:8766/callback/PSQG6TsErCyv",
+    "http://127.0.0.1:8765/callback/PSQG6TsErCyv",
+    "http://127.0.0.1:8765/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "token_endpoint_auth_methods_supported": [
+    "none"
+  ],
+  "scope": "standard",
+  "client_uri": "https://shubhenda.github.io/mcp-cimd-poc/"
+}
